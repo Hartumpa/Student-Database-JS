@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rejected</title>
+    <style>
+        *{
+      margin: 0px;
+      padding: 0px;
+      box-sizing: border-box;
+  }
+  .navbar{
+      display: flex;
+      justify-content: space-evenly;
+      padding: 1%;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  table,td,th{
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  table{
+    border-collapse:collapse;
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+  }
+  tr>th{
+    background-color: teal;
+    color: pink;
+  }
+  th,td{
+    padding: 15px;
+  }
+  tbody>tr>td:nth-child(6){
+    cursor: pointer;
+  } 
+  tbody>tr>td:nth-child(7){
+    cursor: pointer;
+  }        
+</style>
+</head>
+
+<body>
+    <div class="navbar">
+        <a href="./index.html">
+            <h1>Add Students</h1>
+        </a>
+        <a href="./students.html">
+            <h1>Students Database</h1>
+        </a>
+        <a href="./admitted.html">
+            <h1>Admitted</h1>
+        </a>
+        <a href="./rejected.html">
+            <h1>Rejected</h1>
+        </a>
+    </div>
+    <table cellspacing="0">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Course</th>
+                <th>Gender</th>
+                <th>Phone</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- All the rows should be appended here  -->
+        </tbody>
+    </table>
+</body>
+<script src="./rejected.js"></script>
+
+</html>
